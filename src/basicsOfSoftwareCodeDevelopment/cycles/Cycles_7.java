@@ -10,11 +10,11 @@ public class Cycles_7 {
     int m = scanner.nextInt();
     System.out.println("Введите конец диапозона чисел");
     int n = scanner.nextInt();
-    for (int i=m; i<=n; i++){
-      System.out.printf("Все делители числа "+i+": ");
-      for (int j = 2; j<i;j++){
-        if (i%j == 0){
-          System.out.printf(j+", ");
+    for (int i = m; i <= n; i++) {
+      System.out.printf("Все делители числа " + i + ": ");
+      for (int j = 2; j < i; j++) {
+        if (i % j == 0) {
+          System.out.printf(j + ", ");
         }
       }
       System.out.println("");
