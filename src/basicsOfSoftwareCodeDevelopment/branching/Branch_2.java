@@ -1,4 +1,4 @@
-package branching;
+package basicsOfSoftwareCodeDevelopment.branching;
 
 import java.util.Scanner;
 
